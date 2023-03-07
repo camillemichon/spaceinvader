@@ -1,0 +1,726 @@
+fileFormatVersion: 2
+guid: ae6ef474f93cede4eb32522795d1f7bb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 14
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: invaders_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c4dfb53add39041b5a588813f132ff
+      internalID: 1276006308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620c1eddf456d2f40b730a25c8a1eab9
+      internalID: -2136067723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 40
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d520b4baef782bb4ba6dca969d634426
+      internalID: -1283403863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 40
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2508a2875a69640408e3d76b90c6fbc2
+      internalID: -2068647954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 40
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaed6b92bd3c1b458b0dce3a6333c0f
+      internalID: 182936895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 40
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d07e0ec8465e8842b0907ddbf0b2a8e
+      internalID: 1320935734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 37
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b031779d712232f46bcd2466b968b75d
+      internalID: -376095315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 10
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c707901698f1c4c89c81d26cba8316
+      internalID: -377124625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 10
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a255575303b7a4ebab3e80f5062956
+      internalID: -922328182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ae27a6d09a4a742a5d043f6eabbaf4
+      internalID: 813712906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 4
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b9556e34b8d6488da23bd31b69869
+      internalID: 12465048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9120f8b2dbed040a62168171dac17a
+      internalID: -1265783045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 8
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172b2327ff211254d9b0017d89f40d3f
+      internalID: 76886403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 10
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0949f08321391fd44b3f312b0d3bb1a3
+      internalID: 1586143686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invaders_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3268084a89efa45498ba3f49e0610a36
+      internalID: -1804812900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -128, y: -32}
+      - {x: -95, y: -32}
+      - {x: -95, y: -22}
+      - {x: -97, y: -14}
+      - {x: -121, y: -14}
+      - {x: -128, y: -23}
+    - - {x: 119, y: -2}
+      - {x: 115, y: -3}
+      - {x: 110, y: -3}
+      - {x: 109, y: -6}
+      - {x: 108, y: -2}
+      - {x: 41, y: -2}
+      - {x: 33, y: -13}
+      - {x: 33, y: -24}
+      - {x: 34, y: -28}
+      - {x: 43, y: -30}
+      - {x: 128, y: -30}
+      - {x: 128, y: -7}
+      - {x: 124, y: -2}
+    - - {x: 4, y: -6}
+      - {x: 1, y: -10}
+      - {x: 1, y: -20}
+      - {x: 4, y: -26}
+      - {x: 28, y: -26}
+      - {x: 31, y: -22}
+      - {x: 31, y: -12}
+      - {x: 29, y: -6}
+    - - {x: -85, y: -8}
+      - {x: -85, y: -19}
+      - {x: -83, y: -24}
+      - {x: -79, y: -24}
+      - {x: -76, y: -23}
+      - {x: -75, y: -18}
+      - {x: -75, y: -9}
+      - {x: -76, y: -8}
+    - - {x: -51, y: -8}
+      - {x: -51, y: -24}
+      - {x: -45, y: -24}
+      - {x: -45, y: -9}
+      - {x: -47, y: -8}
+    - - {x: -19, y: -8}
+      - {x: -21, y: -14}
+      - {x: -21, y: -23}
+      - {x: -20, y: -24}
+      - {x: -15, y: -24}
+      - {x: -12, y: -23}
+      - {x: -11, y: -20}
+      - {x: -11, y: -12}
+      - {x: -13, y: -8}
+    - - {x: 13, y: -17}
+      - {x: 11, y: -15}
+      - {x: 9, y: -16}
+      - {x: 11, y: -17}
+      - {x: 13, y: -15}
+      - {x: 15, y: -15}
+      - {x: 16, y: -14}
+      - {x: 17, y: -15}
+      - {x: 19, y: -15}
+      - {x: 21, y: -17}
+      - {x: 23, y: -16}
+      - {x: 21, y: -15}
+      - {x: 19, y: -17}
+      - {x: 17, y: -17}
+      - {x: 16, y: -18}
+      - {x: 15, y: -17}
+    - - {x: 102, y: -10}
+      - {x: 103, y: -10}
+      - {x: 102, y: -12}
+      - {x: 102, y: -13}
+      - {x: 103, y: -12}
+    - - {x: 78, y: 28}
+      - {x: 70, y: 15}
+      - {x: 70, y: 7}
+      - {x: 78, y: 3}
+      - {x: 116, y: 3}
+      - {x: 122, y: 10}
+      - {x: 122, y: 20}
+      - {x: 111, y: 28}
+    - - {x: -116, y: 26}
+      - {x: -122, y: 24}
+      - {x: -122, y: 8}
+      - {x: -121, y: 6}
+      - {x: -104, y: 6}
+      - {x: -102, y: 8}
+      - {x: -102, y: 20}
+      - {x: -106, y: 26}
+    - - {x: -78, y: 26}
+      - {x: -82, y: 26}
+      - {x: -90, y: 18}
+      - {x: -90, y: 6}
+      - {x: -72, y: 6}
+      - {x: -70, y: 7}
+      - {x: -70, y: 18}
+    - - {x: -58, y: 26}
+      - {x: -60, y: 25}
+      - {x: -61, y: 21}
+      - {x: -61, y: 6}
+      - {x: -36, y: 6}
+      - {x: -35, y: 7}
+      - {x: -35, y: 16}
+      - {x: -37, y: 26}
+    - - {x: -28, y: 26}
+      - {x: -29, y: 25}
+      - {x: -29, y: 6}
+      - {x: -3, y: 6}
+      - {x: -3, y: 26}
+    - - {x: 28, y: 26}
+      - {x: 6, y: 26}
+      - {x: 2, y: 24}
+      - {x: 2, y: 6}
+      - {x: 30, y: 6}
+      - {x: 30, y: 24}
+    - - {x: 37, y: 26}
+      - {x: 34, y: 25}
+      - {x: 34, y: 12}
+      - {x: 37, y: 6}
+      - {x: 58, y: 6}
+      - {x: 62, y: 10}
+      - {x: 62, y: 21}
+      - {x: 60, y: 26}
+    physicsShape:
+    - - {x: -128, y: -32}
+      - {x: -95, y: -32}
+      - {x: -95, y: -22}
+      - {x: -97, y: -14}
+      - {x: -121, y: -14}
+      - {x: -128, y: -23}
+    - - {x: 119, y: -2}
+      - {x: 115, y: -3}
+      - {x: 110, y: -3}
+      - {x: 109, y: -6}
+      - {x: 108, y: -2}
+      - {x: 41, y: -2}
+      - {x: 33, y: -13}
+      - {x: 33, y: -24}
+      - {x: 34, y: -28}
+      - {x: 43, y: -30}
+      - {x: 128, y: -30}
+      - {x: 128, y: -7}
+      - {x: 124, y: -2}
+    - - {x: 4, y: -6}
+      - {x: 1, y: -10}
+      - {x: 1, y: -20}
+      - {x: 4, y: -26}
+      - {x: 28, y: -26}
+      - {x: 31, y: -22}
+      - {x: 31, y: -12}
+      - {x: 29, y: -6}
+    - - {x: -85, y: -8}
+      - {x: -85, y: -19}
+      - {x: -83, y: -24}
+      - {x: -79, y: -24}
+      - {x: -76, y: -23}
+      - {x: -75, y: -18}
+      - {x: -75, y: -9}
+      - {x: -76, y: -8}
+    - - {x: -51, y: -8}
+      - {x: -51, y: -24}
+      - {x: -45, y: -24}
+      - {x: -45, y: -9}
+      - {x: -47, y: -8}
+    - - {x: -19, y: -8}
+      - {x: -21, y: -14}
+      - {x: -21, y: -23}
+      - {x: -20, y: -24}
+      - {x: -15, y: -24}
+      - {x: -12, y: -23}
+      - {x: -11, y: -20}
+      - {x: -11, y: -12}
+      - {x: -13, y: -8}
+    - - {x: 13, y: -17}
+      - {x: 11, y: -15}
+      - {x: 9, y: -16}
+      - {x: 11, y: -17}
+      - {x: 13, y: -15}
+      - {x: 15, y: -15}
+      - {x: 16, y: -14}
+      - {x: 17, y: -15}
+      - {x: 19, y: -15}
+      - {x: 21, y: -17}
+      - {x: 23, y: -16}
+      - {x: 21, y: -15}
+      - {x: 19, y: -17}
+      - {x: 17, y: -17}
+      - {x: 16, y: -18}
+      - {x: 15, y: -17}
+    - - {x: 102, y: -10}
+      - {x: 103, y: -10}
+      - {x: 102, y: -12}
+      - {x: 102, y: -13}
+      - {x: 103, y: -12}
+    - - {x: 78, y: 28}
+      - {x: 70, y: 15}
+      - {x: 70, y: 7}
+      - {x: 78, y: 3}
+      - {x: 116, y: 3}
+      - {x: 122, y: 10}
+      - {x: 122, y: 20}
+      - {x: 111, y: 28}
+    - - {x: -116, y: 26}
+      - {x: -122, y: 24}
+      - {x: -122, y: 8}
+      - {x: -121, y: 6}
+      - {x: -104, y: 6}
+      - {x: -102, y: 8}
+      - {x: -102, y: 20}
+      - {x: -106, y: 26}
+    - - {x: -78, y: 26}
+      - {x: -82, y: 26}
+      - {x: -90, y: 18}
+      - {x: -90, y: 6}
+      - {x: -72, y: 6}
+      - {x: -70, y: 7}
+      - {x: -70, y: 18}
+    - - {x: -58, y: 26}
+      - {x: -60, y: 25}
+      - {x: -61, y: 21}
+      - {x: -61, y: 6}
+      - {x: -36, y: 6}
+      - {x: -35, y: 7}
+      - {x: -35, y: 16}
+      - {x: -37, y: 26}
+    - - {x: -28, y: 26}
+      - {x: -29, y: 25}
+      - {x: -29, y: 6}
+      - {x: -3, y: 6}
+      - {x: -3, y: 26}
+    - - {x: 28, y: 26}
+      - {x: 6, y: 26}
+      - {x: 2, y: 24}
+      - {x: 2, y: 6}
+      - {x: 30, y: 6}
+      - {x: 30, y: 24}
+    - - {x: 37, y: 26}
+      - {x: 34, y: 25}
+      - {x: 34, y: 12}
+      - {x: 37, y: 6}
+      - {x: 58, y: 6}
+      - {x: 62, y: 10}
+      - {x: 62, y: 21}
+      - {x: 60, y: 26}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      invaders_sheet_0: 1276006308
+      invaders_sheet_15: -1265783045
+      invaders_sheet_22: -1804812900
+      invaders_sheet_21: 1586143686
+      invaders_sheet_13: 813712906
+      invaders_sheet_9: -36522295
+      invaders_sheet_7: -377124625
+      invaders_sheet_8: -922328182
+      invaders_sheet_18: 1204204840
+      invaders_sheet_2: -1283403863
+      invaders_sheet_3: -2068647954
+      invaders_sheet_14: 12465048
+      invaders_sheet_12: -1766757940
+      invaders_sheet_10: -253407901
+      invaders_sheet_19: 1146766865
+      invaders_sheet_4: 182936895
+      invaders_sheet_20: 1400214185
+      invaders_sheet_16: 89241136
+      invaders_sheet_5: 1320935734
+      invaders_sheet_6: -376095315
+      invaders_sheet_17: 76886403
+      invaders_sheet_1: -2136067723
+      invaders_sheet_11: -752310453
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
