@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MoveEnemy : MonoBehaviour
 {
-    public float speed = 2;
+    public float speed = 1;
     public GameObject gameOverPrefab;
     
     private int direction = 1;
