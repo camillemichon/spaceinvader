@@ -7,7 +7,7 @@ public class MoveEnemy : MonoBehaviour
     public GameObject gameOverPrefab;
     
     private int direction = 1;
-    private float nbEnemies;
+    public static float nbEnemies;
     private float acceleration;
 
 
@@ -34,17 +34,16 @@ public class MoveEnemy : MonoBehaviour
     {
         if (Player.hasLose) return;
         
-        Vector3 position = transform.position;
-        position.x += Vector2.right.x * direction * Time.deltaTime * speed;
-        transform.position = position;
+        transform.position += Vector3.right * direction * Time.deltaTime * speed;
 
         foreach (Transform enemy in transform)
         {
-            if (enemy.position.x is < -7 or > 7)
+            if (enemy.GetComponent<SpriteRenderer>().sprite == null) continue;
+            
+            if (enemy.position.x < -7 || enemy.position.x > 7)
             {
-                position.y += Vector2.down.y * 0.2f;
-                transform.position = position;
                 direction *= -1;
+                transform.position += Vector3.right * direction * Time.deltaTime * speed + Vector3.down * 0.3f;
                 return;
             }
         }

@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -13,9 +16,18 @@ public class Player : MonoBehaviour
   private int lives = 3;
 
   public static bool hasLose = false;
+
+  public AudioClip audioShoot;
+  public AudioClip audioDie;
+
+  private AudioSource audioSource;
+
+  private Animator animator;
   
   private void Start()
   {
+    animator = GetComponent<Animator>();
+    audioSource = GetComponent<AudioSource>();
     rb = GetComponent<Rigidbody2D>();
   }
 
@@ -30,10 +42,35 @@ public class Player : MonoBehaviour
     }
     if (Input.GetKeyDown(KeyCode.Space))
     {
+      StartCoroutine(ShootAnimation());
+      audioSource.clip = audioShoot;
+      audioSource.Play();
       GameObject shot = Instantiate(bullet, shottingOffset.position, Quaternion.identity);
       Destroy(shot, 1.7f);
 
     }
+  }
+
+  private IEnumerator ShootAnimation()
+  {
+    animator.SetBool("Shoot", true);
+    yield return new WaitForSeconds(0.3f);
+    animator.SetBool("Shoot", false);
+  }
+
+  private IEnumerator DeathAnimation()
+  {
+    animator.SetBool("Death", true);
+    yield return new WaitForSeconds(0.3f);
+    animator.SetBool("Death", false);
+  }
+  
+  private IEnumerator GameToCredits()
+  {
+    // wait for the player death animation to play
+    yield return new WaitForSeconds(0.4f);
+
+    SceneManager.LoadScene("Credits");
   }
 
   private void OnTriggerEnter2D(Collider2D pwew)
@@ -43,9 +80,14 @@ public class Player : MonoBehaviour
        lives--;
        Debug.Log("Player lives : " + lives);
        
+       audioSource.clip = audioDie;
+       audioSource.Play();
+
+       StartCoroutine(DeathAnimation());
+       
        if (lives == 0)
        {
-         Destroy(gameObject);
+         StartCoroutine(GameToCredits());
          hasLose = true;
          OnPlayerLose?.Invoke();
        }
