@@ -1380,9 +1380,6 @@ Transform:
   - {fileID: 500530454}
   - {fileID: 1277061155}
   - {fileID: 1901563537}
-  - {fileID: 1555147}
-  - {fileID: 637156005}
-  - {fileID: 766482099}
   - {fileID: 2088461225}
   - {fileID: 412400645}
   - {fileID: 1849121219}
@@ -1391,6 +1388,9 @@ Transform:
   - {fileID: 352077102}
   - {fileID: 1175410686}
   - {fileID: 702245895}
+  - {fileID: 1555147}
+  - {fileID: 637156005}
+  - {fileID: 766482099}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

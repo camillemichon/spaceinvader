@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
   
   private void Start()
   {
+    hasLose = false;
     animator = GetComponent<Animator>();
     audioSource = GetComponent<AudioSource>();
     rb = GetComponent<Rigidbody2D>();
